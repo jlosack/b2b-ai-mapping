@@ -1,12 +1,12 @@
 ISA*00*          *00*          *ZZ*ALPSINC        *02*MVTL           *210319*1357*U*00401*000742075*0*P*>~
 GS*SM*ALPSINC*MVTL*20210319*1357*742075*X*004010~
 ST*204*0001~
-B2**MVTL**SI-{{$timestamp}}**PP~
+B2**MVTL**SI-1745615012**PP~
 B2A*00*LT~
 L11*2295406*IA~
 L11*SID42320236*MB~
 L11*7823009216*CN~
-G62*64*{{ediCurrentDatePlus6H}}*1*{{ediCurrentTimePlus6H}}*ET~
+G62*64*20250425*1*200332*ET~
 PLD*20~
 NTE**By accepting this tender carrier is agreeing to the terms and conditions found a~
 NTE**https?//tms.ntoretailer.com/PDF/204TermsDisclaimer.pdf~
@@ -16,7 +16,7 @@ L11*0*BM~
 L11*26981046*DJ~
 L11*1716036792*PO~
 L11*0*SO~
-G62*10*{{ediCurrentDatePlus7D}}*L*103000~
+G62*10*20250502*L*103000~
 N1*SF*ALPS DISTRIBUTION CENTER, TUALATIN*93*865214~
 N3*7740 SW Mohawk St~
 N4*Tualatin*OR*97062*USA~
@@ -26,7 +26,7 @@ L11*0*BM~
 L11*26981046*DJ~
 L11*1716036792*PO~
 L11*0*SO~
-G62*02*{{ediCurrentDatePlus9D}}*L*143000~
+G62*02*20250504*L*143000~
 N1*ST*ALPS STORE-45678, ALTURAS, CA*93*73168~
 N3*310 E McDowell Ave*209-257-4552~
 N4*Alturas*CA*96101*USA~

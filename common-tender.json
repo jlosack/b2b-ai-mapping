@@ -1,0 +1,173 @@
+[
+  {
+    "B2BMessage": {
+      "Header": {
+        "ReceiverID": "VANTRUCKLOAD",
+        "MessageID": "034120d1-5951-4caa-bf89-bd23ef698c54",
+        "ReceiveDateTime": "2025-04-25T21:03:45.7Z",
+        "SenderID": "ALPSINC",
+        "MessageType": "inb-loadtender",
+        "BusinessKey": "SI-1745615012"
+      },
+      "Data": {
+        "LoadTenderRequest": {
+          "TransactionPurposeCode": "00",
+          "TransmitDate": "2021-03-19T00:00:00Z",
+          "TransmitTime": "13:57:00",
+          "ShipmentID": "SI-1745615012",
+          "SCAC": "MVTL",
+          "TradingPartnerName": "ALPSINC",
+          "TenderingPartyID": "TP-87923290",
+          "LiablePartyID": "LP-7823289",
+          "BillToCode": "BT-872328",
+          "TotalStops": 2,
+          "OriginStopSeq": 1,
+          "DestinationStopSeq": 2,
+          "FreightTerms": "PP",
+          "Remarks": "By accepting this tender carrier is agreeing to the terms and conditions found ahttps?//tms.ntoretailer.com/PDF/204TermsDisclaimer.pdf",
+          "RespondByDate": "2025-04-25",
+          "RespondByTime": "20:03:32",
+          "RespondByTimezone": "ET",
+          "Stops": [
+            {
+              "Stop": {
+                "LocationID": "865214",
+                "StopToken": "1",
+                "SequenceNumber": "1",
+                "LocationName": "ALPS DISTRIBUTION CENTER, TUALATIN",
+                "LocationIDType": "93",
+                "RequestStartDate": "2025-05-02",
+                "RequestStartTime": "10:30:00",
+                "Type": "LD",
+                "Address": {
+                  "AddressLineOne": "7740 SW Mohawk St",
+                  "City": "Tualatin",
+                  "StateProvince": "OR",
+                  "Country": "USA",
+                  "PostalCode": "97062"
+                },
+                "References": [
+                  {
+                    "Reference": {
+                      "Type": "MBOL",
+                      "Value": "0"
+                    }
+                  },
+                  {
+                    "Reference": {
+                      "Type": "NOT_TRANSLATED:DJ",
+                      "Value": "26981046"
+                    }
+                  },
+                  {
+                    "Reference": {
+                      "Type": "PO_NUM",
+                      "Value": "1716036792"
+                    }
+                  },
+                  {
+                    "Reference": {
+                      "Type": "NOT_TRANSLATED:SO",
+                      "Value": "0"
+                    }
+                  }
+                ],
+                "LineItems": [
+                  {
+                    "LineItem": {
+                      "TypeCode": "COMMODITY",
+                      "StopToken": "1",
+                      "StopEvent": "LD",
+                      "PackagingUnitType": "Boxes",
+                      "PackagingUnitQuantity": "960",
+                      "GrossWeight": "45459.84",
+                      "GrossWeightUoM": "Pounds"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Stop": {
+                "LocationID": "73168",
+                "StopToken": "2",
+                "SequenceNumber": "2",
+                "LocationName": "ALPS STORE-45678, ALTURAS, CA",
+                "LocationIDType": "93",
+                "RequestStartDate": "2025-05-04",
+                "RequestStartTime": "14:30:00",
+                "Type": "CU",
+                "Address": {
+                  "AddressLineOne": "310 E McDowell Ave",
+                  "City": "Alturas",
+                  "StateProvince": "CA",
+                  "Country": "USA",
+                  "PostalCode": "96101"
+                },
+                "References": [
+                  {
+                    "Reference": {
+                      "Type": "MBOL",
+                      "Value": "0"
+                    }
+                  },
+                  {
+                    "Reference": {
+                      "Type": "NOT_TRANSLATED:DJ",
+                      "Value": "26981046"
+                    }
+                  },
+                  {
+                    "Reference": {
+                      "Type": "PO_NUM",
+                      "Value": "1716036792"
+                    }
+                  },
+                  {
+                    "Reference": {
+                      "Type": "NOT_TRANSLATED:SO",
+                      "Value": "0"
+                    }
+                  }
+                ],
+                "LineItems": [
+                  {
+                    "LineItem": {
+                      "TypeCode": "COMMODITY",
+                      "StopToken": "2",
+                      "StopEvent": "CU",
+                      "PackagingUnitType": "Boxes",
+                      "PackagingUnitQuantity": "960",
+                      "GrossWeight": "45459.84",
+                      "GrossWeightUoM": "Pounds"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "References": [
+            {
+              "Reference": {
+                "Type": "Internal Vendor Number",
+                "Value": "2295406"
+              }
+            },
+            {
+              "Reference": {
+                "Type": "Master Bill of Lading",
+                "Value": "SID42320236"
+              }
+            },
+            {
+              "Reference": {
+                "Type": "Carrier's Reference Number",
+                "Value": "7823009216"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+]
